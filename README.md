@@ -20,12 +20,23 @@ The botnet implemented in the Python script has the following features:
 - Executes commands on all connected clients simultaneously
 - Sends command output back to the botnet for viewing
 - Implements basic command parsing and execution
+- The botnet can focus on a specific client to send commands to, allowing for more targeted actions. This feature can be useful in situations where it is necessary to execute a specific command on a particular client without affecting others.
 
-## Client Features
+## RAT Features
 The client implemented in the C++ program has the following features:
 - Connects to the botnet and waits for commands
 - Sends command output back to the botnet for viewing
 - Supports basic commands such as `cd`, `ls`, and `pwd`
+- Implements persistence by automatically running on startup, ensuring it remains connected to the botnet even after a reboot. Further, he client also implements persistence by creating a new thread that will attempt to reconnect to the botnet if the connection is lost. This ensures that the client will continue to receive commands even if the connection is temporarily disrupted.
+- - Supports the following basic commands:
+  - `cd` - change directory
+  - `whoami` - display the current user
+  - `hostname` - display the hostname of the machine
+  - `nano` - open a file in the Nano text editor
+  - `exec` - execute a command
+  - `rm` - remove a file or directory
+  - `pwd` - display the current working directory
+  - `ls` - list files and directories in the current directory
 
 ## Usage
 To use this implementation, follow these steps:
