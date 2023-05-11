@@ -2,7 +2,11 @@
 
 This repository contains the code for a botnet and Remote Access Shell in Python and C++. 
 
-**Disclaimer: This code is intended for educational and research purposes only. Please do not use it for any malicious purposes. The author and contributors of this code are not responsible for any damage caused by its use.**
+**Disclaimer: This code is provided for educational and research purposes only. It is not intended to be used for any illegal or malicious activities. The author, Zahaan Shapoorjee, and any contributors to this code are not responsible for any damage caused by its use.
+
+By downloading, copying, or using this code, you agree that you will not use it for any illegal or malicious purposes. You understand that the use of this code may be subject to local, state, and federal laws and regulations, and you are solely responsible for ensuring that your use of the code complies with all applicable laws and regulations.
+
+The author and contributors to this code do not condone or support any illegal or malicious activities, and this code should only be used for educational or research purposes with the express permission of all parties involved. If you have any questions about the intended use of this code or its limitations, please contact the author for clarification.**
 
 ## Table of Contents
 - [Overview](#overview)
